@@ -1,0 +1,48 @@
+@font-face {
+            font-family: BNR;
+            src: url('./Fonts/BebasNeue-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: OSB;
+            src: url('./Fonts/OpenSans-Bold.ttf');
+        }
+
+        @font-face {
+            font-family: OSR;
+            src: url('./Fonts/OpenSans-Regular.ttf');
+        }
+
+        .f-bnr {
+            font-family: "BNR";
+        }
+
+        .f-osb {
+            font-family: "OSB";
+        }
+
+        .f-osr {
+            font-family: "OSR";
+        }
+
+        .custom-text-dark {
+            color: #395964;
+        }
+
+        .custom-bg-dark {
+            background-color: #395964;
+        }
+
+        .custom-text-light {
+            color: #02ADBF;
+        }
+
+        .custom-bg-light {
+            background-color: #02ADBF;
+        }
+
+        @media screen and (max-width : 600px) {
+            .bor {
+                border-right: 0 !important;
+            }
+        }
